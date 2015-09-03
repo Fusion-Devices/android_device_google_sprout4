@@ -20,3 +20,20 @@
 TARGET_OTA_ASSERT_DEVICE := sprout,sprout4
 
 TARGET_RECOVERY_FSTAB := device/google/sprout4/rootdir/root/fstab.sprout
+
+# Fusion Optimizations
+FUSION_OPT := true
+FUSION_O3 := true
+FUSION_STRICT := false
+FUSION_OFAST := true
+FUSION_KRAIT := false
+FUSION_GRAPHITE := true
+FUSION_PIPE := false
+FUSION_ENABLE_GCCONLY := true
+FLOOP_NEST_OPTIMIZE := true
+FUSION_FFAST_MATH := true
+TARGET_FUSION_ROM := 4.9
+TARGET_FUSION_KERNEL := 4.9-sm
+
+# SaberMod
+-include vendor/fusion/config/sm.mk
