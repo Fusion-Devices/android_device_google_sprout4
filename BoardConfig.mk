@@ -27,13 +27,13 @@ FUSION_O3 := true
 FUSION_STRICT := false
 FUSION_OFAST := true
 FUSION_KRAIT := false
-FUSION_GRAPHITE := true
+FUSION_GRAPHITE := false
 FUSION_PIPE := false
 FUSION_ENABLE_GCCONLY := true
 FLOOP_NEST_OPTIMIZE := true
 FUSION_FFAST_MATH := true
 TARGET_FUSION_ROM := 4.9
-TARGET_FUSION_KERNEL := 4.9-sm
+TARGET_FUSION_KERNEL := 5.2-sm
 
 # SaberMod
 -include vendor/fusion/config/sm.mk
